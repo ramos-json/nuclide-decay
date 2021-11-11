@@ -1,0 +1,62 @@
+.header {
+    overflow: hidden;
+    background-color: #353131;
+    padding: 20px 10px;
+    color:white;
+  }
+  body{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  #myForm{
+      display:none;
+  }
+  input[type=text]:focus {
+    background-color: #e6f0ff;
+  }
+  input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #mytable td, #mytable th{
+    
+    padding: 8px;
+    border: solid 1px #ccc;
+
+  }
+  .button:hover{
+    background-color: rgba(13, 129, 224, 0.89);
+  }
+  input[type=button] {
+    width: 10%;
+    background-color: #3168bb;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ 
+ th{
+     border-top: 10px;
+     background-color: #3168bb;
+     color: white;
+     padding: 10px;
+ }
+ .container {
+    width: 500px;
+    clear: both;
+    float:right;
+  }
+  
+  .container input {
+    width: 100%;
+    clear: both;
+  }
+  
